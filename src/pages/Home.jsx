@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-max bg-[#181818] p-8 mt-20 shadow-lg rounded-lg">
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-4">
@@ -16,6 +16,4 @@ const Home = () => {
       </div>
     </div>
   );
-};
-
-export default Home;
+}
