@@ -10,7 +10,9 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <Router>
+      {/* Place the Navbar outside of Routes */}
       <Navbar />
+      {/* Routes should only contain Route components */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/education" element={<Education />} />

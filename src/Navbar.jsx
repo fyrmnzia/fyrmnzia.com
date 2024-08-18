@@ -8,7 +8,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-export default function Navbar() {
+const Navbar = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleSetActive = (index) => {
@@ -24,28 +24,30 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="fixed top-8 w-max px-8 md:px-80 py-6 md:py-10 mb-2 md:mb-4 bg-[#212121] rounded-xl border-[#222222] shadow-black shadow-md">
-      <nav className="flex items-center gap-10 md:gap-12 mx-auto">
+    <nav className="fixed top-8 left-8 right-8 flex justify-between items-center p-4 bg-[#181818] shadow-lg rounded-lg z-50 px-8 md:px-16 lg:px-32">
+      <div className="flex justify-between w-full">
         {navItems.map((item, index) => (
           <Link
             key={index}
             to={item.path}
             onClick={() => handleSetActive(index)}
-            className={`mx-auto flex gap-10 md:gap-12 text-lg transform transition-transform duration-200 ${
+            className={`relative px-4 py-2 text-lg transform transition-transform duration-200 ${
               activeIndex === index
                 ? "text-white scale-110"
-                : "hover:text-white hover:scale-110 hover:underline hover:underline-offset-4"
+                : "text-[#b3b3b3] hover:text-white hover:scale-110"
             }`}
           >
             {item.icon}
             <span
-              className={`absolute left-0 right-0 bottom-[-4px] h-[2px] bg-white transform transition-transform duration-200 ${
+              className={`absolute left-0 right-0 bottom-[-6px] h-[2px] bg-white transform transition-transform duration-200 ${
                 activeIndex === index ? "scale-x-100" : "scale-x-0"
               }`}
             />
           </Link>
         ))}
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;
