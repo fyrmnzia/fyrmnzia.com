@@ -1,26 +1,36 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
-import Home from "./pages/Home";
-import Education from "./pages/Education";
-import Skill from "./pages/Skill";
-import Project from "./pages/Project";
-import Contact from "./pages/Contact";
+import Home from "./sections/Home";
+import Education from "./sections/Education";
+import Skill from "./sections/Skill";
+import Project from "./sections/Project";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
-    <Router>
-      {/* Place the Navbar outside of Routes */}
+    <div>
       <Navbar />
-      {/* Routes should only contain Route components */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skill" element={<Skill />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+      <main>
+        <section id="home" className="my-20">
+          <Home />
+        </section>
+        <section id="education" className="my-20">
+          <Education />
+        </section>
+        <section id="skill" className="my-20">
+          <Skill />
+        </section>
+        <section id="project" className="my-20">
+          <Project />
+        </section>
+        <section id="contact" className="my-20">
+          <Contact />
+        </section>
+      </main>
+      <footer className="text-center">
+        <p>&copy; 2024 fyrmnzia.com</p>
+      </footer>
+    </div>
   );
 };
 

@@ -1,0 +1,40 @@
+import React from "react";
+import { FaHome } from "react-icons/fa";
+
+const Home = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen rounded-md bg-[#181818] px-4 pt-24">
+      <div className="flex gap-2">
+        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+          <FaHome />
+        </p>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+          Home
+        </h1>
+      </div>
+      <div className="bg-[#202020] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
+        {/* Title and Description */}
+        <div className="flex-1 text-left">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+            Rifqi Firmansyah
+          </h1>
+          <p className="text-base md:text-lg lg:text-xl text-[#b3b3b3]">
+            Hi!, Im from Indonesia and Im a high school graduate in 2023, I
+            studied web development self-taught.
+          </p>
+        </div>
+
+        {/* Photo */}
+        <div className="flex-1">
+          <img
+            src="/src/assets/profile.jpg"
+            alt="Rifqi Firmansyah"
+            className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-lg mx-auto grayscale"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
