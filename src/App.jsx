@@ -5,10 +5,12 @@ import Education from "./sections/Education";
 import Skill from "./sections/Skill";
 import Project from "./sections/Project";
 import Contact from "./sections/Contact";
+import "@fontsource/poppins"; // untuk font normal
+import "@fontsource/poppins/600.css"; // untuk font bold
 
 const App = () => {
   return (
-    <div>
+    <div className="font-sans">
       <Navbar />
       <main>
         <section id="home" className="my-20">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = () => {
+export default function Project() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#181818] px-4 pt-20">
       <div className="bg-[#202020] p-12 md:p-16 lg:p-20 rounded-lg shadow-lg text-center max-w-xl">
@@ -16,6 +16,4 @@ const Project = () => {
       </div>
     </div>
   );
-};
-
-export default Project;
+}

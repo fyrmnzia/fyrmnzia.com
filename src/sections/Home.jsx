@@ -1,9 +1,9 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen rounded-md bg-[#181818] px-4 pt-24">
+    <div className="flex flex-col items-center justify-center min-h-screen rounded-xl bg-[#181818] px-4 pt-24">
       <div className="flex gap-2">
         <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
           <FaHome />
@@ -12,9 +12,9 @@ const Home = () => {
           Home
         </h1>
       </div>
-      <div className="bg-[#202020] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
+      <div className="bg-[#202020] p-2 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
         {/* Title and Description */}
-        <div className="flex-1 text-left">
+        <div className="flex-1 text-justify">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Rifqi Firmansyah
           </h1>
@@ -35,6 +35,4 @@ const Home = () => {
       </div>
     </div>
   );
-};
-
-export default Home;
+}
