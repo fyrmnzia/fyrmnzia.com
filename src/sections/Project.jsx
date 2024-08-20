@@ -5,12 +5,12 @@ export default function Project() {
   const projectItems = [
     {
       name: "fyrmnzia-todo-app",
-      img: "/public/todoapp.png",
+      img: "/dist/todoapp.png",
       link: "https://fyrmnzia-todo-app.vercel.app/",
     },
     {
       name: "queenycil",
-      img: "/public/queenycil.png",
+      img: "/dist/queenycil.png",
       link: "https://queenycil.vercel.app/",
     },
   ];
