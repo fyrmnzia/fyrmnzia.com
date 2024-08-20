@@ -25,7 +25,9 @@ export default function Project() {
           Projects
         </h1>
       </div>
-      <p>Besides this personal website, these are project I have created</p>
+      <p className="text-center md:text-justify">
+        Besides this personal website, these are project I have created
+      </p>
       <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projectItems.map((projectItems, index) => (

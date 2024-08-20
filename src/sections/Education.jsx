@@ -14,7 +14,7 @@ export default function Education() {
       </div>
 
       <div className="bg-[#202020] border-[#222222] border-2 p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
-        <div className="flex-1 text-left md:text-justify">
+        <div className="flex-1 text-center md:text-justify">
           <h1 className="font-bold text-white mb-4">self-taught</h1>
           <p>
             Since I graduated from high school, I have studied web development

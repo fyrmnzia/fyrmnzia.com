@@ -42,7 +42,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="fixed top-5 left-5 right-5 flex justify-between items-center p-4 border-[#181818] border-2 bg-[#161616] shadow-lg rounded-lg z-50 px-8 md:px-16 lg:px-32">
+    <nav className="fixed top-5 left-2 md:left-5 right-2 md:right-5 flex justify-between items-center p-4 border-[#181818] border-2 bg-[#161616] shadow-lg rounded-lg z-50 px-8 md:px-16 lg:px-32">
       <div className="flex justify-between w-full">
         {navItems.map((item, index) => (
           <Link
