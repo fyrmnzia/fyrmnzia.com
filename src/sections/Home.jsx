@@ -3,7 +3,7 @@ import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen rounded-xl bg-[#181818] border-[#202020] border-2 px-4 pt-24">
+    <div className="flex flex-col items-center justify-center min-h-screen rounded-xl bg-[#181818] border-[#202020] border-2 px-4 pt-20">
       <div className="flex gap-2 p-2 md:p-6 lg:p-10">
         <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
           <FaHome />
