@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 export default function Education() {
   return (
-    <div className="flex flex-col items-center justify-center h-max rounded-xl bg-[#181818] border-[#202020] border-2 px-4 pt-6 md:pt-16">
+    <div className="flex flex-col items-center justify-center h-max rounded-xl bg-[#181818] border-[#202020] border-2 pt-6 md:pt-16">
       <div className="flex gap-2 mb-7">
         <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
           <FaGraduationCap />
