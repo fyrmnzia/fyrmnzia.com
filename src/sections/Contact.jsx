@@ -3,7 +3,11 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   const contactItems = [
-    { name: "GitHub", icon: <FaGithub />, link: "github.com/fyrmnzia" },
+    {
+      name: "GitHub",
+      icon: <FaGithub />,
+      link: "https://www.github.com/fyrmnzia",
+    },
     {
       name: "LinkedIn",
       icon: <FaLinkedin />,
