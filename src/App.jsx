@@ -13,19 +13,19 @@ const App = () => {
     <div className="font-sans">
       <Navbar />
       <main>
-        <section id="home" className="my-20">
+        <section id="home" className="my-36">
           <Home />
         </section>
-        <section id="education" className="my-20">
+        <section id="education" className="my-36">
           <Education />
         </section>
-        <section id="skill" className="my-20">
+        <section id="skill" className="my-36">
           <Skill />
         </section>
-        <section id="project" className="my-20">
+        <section id="project" className="my-36">
           <Project />
         </section>
-        <section id="contact" className="my-20">
+        <section id="contact" className="my-36">
           <Contact />
         </section>
       </main>
