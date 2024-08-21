@@ -5,7 +5,7 @@ export default function Contact() {
   const contactItems = [
     { name: "GitHub", icon: <FaGithub />, link: "github.com/fyrmnzia" },
     {
-      name: "GitHub",
+      name: "LinkedIn",
       icon: <FaLinkedin />,
       link: "https://www.linkedin.com/in/rifqi-firmansyah-1686b3292",
     },
@@ -23,7 +23,7 @@ export default function Contact() {
       </div>
       <p>Lets get connected on these platform!</p>
       <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-8">
           {contactItems.map((contactItems, index) => (
             <a
               href={contactItems.link}

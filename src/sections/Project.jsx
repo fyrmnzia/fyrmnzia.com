@@ -5,12 +5,12 @@ export default function Project() {
   const projectItems = [
     {
       name: "fyrmnzia-todo-app",
-      img: "/src/assets/todoapp.png",
+      img: "/public/static/images/todoapp.png",
       link: "https://fyrmnzia-todo-app.vercel.app/",
     },
     {
       name: "queenycil",
-      img: "/src/assets/queenycil.png",
+      img: "/public/static/images/queenycil.png",
       link: "https://queenycil.vercel.app/",
     },
   ];
@@ -38,7 +38,7 @@ export default function Project() {
             >
               <img
                 src={projectItems.img}
-                alt="fyrmnzia-todo-app"
+                alt="project"
                 className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-lg mx-auto"
               />
               <h3 className="text-base md:text-lg lg:text-xl font-semibold my-4 text-white">
