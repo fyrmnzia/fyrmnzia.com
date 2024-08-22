@@ -25,13 +25,13 @@ export default function Home() {
         </div>
 
         {/* Photo */}
-        <div className="flex-1">
+        <a href="/images/profile.png" className="flex-1">
           <img
             src="/images/profile.png"
             alt="Rifqi Firmansyah"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-lg mx-auto grayscale"
           />
-        </div>
+        </a>
       </div>
     </div>
   );

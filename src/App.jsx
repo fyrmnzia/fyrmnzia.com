@@ -10,7 +10,7 @@ import "@fontsource/poppins/600.css"; // untuk font bold
 
 const App = () => {
   return (
-    <div className="font-sans">
+    <div className="font-sans overflow-hidden">
       <Navbar />
       <main>
         <section id="home" className="my-36">
