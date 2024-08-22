@@ -55,7 +55,7 @@ export default function Project() {
               ))}
             </div>
           )}
-          className="overflow-hidden rounded-lg"
+          className="overflow-hidden rounded-lg shadow-lg"
         >
           {projectItems.map((projectItems, index) => (
             <a
