@@ -55,7 +55,7 @@ export default function Project() {
             <a
               href={projectItems.link}
               key={index}
-              className="bg-[#222222] border-2 border-[#242424] p-1 md:p-2 lg:p-3 rounded-lg shadow-lg flex flex-col items-center transition-transform transform hover:scale-105 hover:rounded-lg hover:bg-[#242424] mx-6"
+              className="bg-[#222222] border-2 border-[#242424] p-2 md:p-2 lg:p-3 rounded-lg shadow-lg flex flex-col items-center transition-transform transform hover:scale-105 hover:rounded-lg hover:bg-[#242424] mx-6"
             >
               <img
                 src={projectItems.img}
