@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-[#b3b3b3]">
             Hi!, Im from Sumedang, Indonesia and Im a high school graduate in
-            2023, I studied web development self-taught.
+            2023, I am a Frontend Developer and also Administrator.
           </p>
         </div>
 

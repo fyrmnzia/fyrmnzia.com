@@ -1,5 +1,10 @@
 import React from "react";
 import { FaCss3, FaHtml5, FaJs, FaReact, FaTools } from "react-icons/fa";
+import {
+  PiMicrosoftExcelLogoFill,
+  PiMicrosoftPowerpointLogoFill,
+  PiMicrosoftWordLogoFill,
+} from "react-icons/pi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandMysql } from "react-icons/tb";
 
@@ -41,6 +46,27 @@ export default function Skill() {
       name: "MySQL",
       icon: <TbBrandMysql />,
       description: "MySQL is used to store, process, and manage data web pages",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "Microsoft Word",
+      icon: <PiMicrosoftWordLogoFill />,
+      description:
+        "Microsoft Word is used to creating, editing, and formating text document",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "Microsoft Excel",
+      icon: <PiMicrosoftExcelLogoFill />,
+      description:
+        "Microsoft Excel is used to creating, managing, and analyzing data in tables or charts",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "Microsoft Power Point",
+      icon: <PiMicrosoftPowerpointLogoFill />,
+      description:
+        "Microsoft Power Point is used to creating slide presentations with text, images, charts, and animation.",
       link: "https://www.mysql.com/",
     },
   ];
