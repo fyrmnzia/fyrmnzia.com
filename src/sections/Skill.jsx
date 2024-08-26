@@ -53,21 +53,21 @@ export default function Skill() {
       icon: <PiMicrosoftWordLogoFill />,
       description:
         "Microsoft Word is used to creating, editing, and formating text document",
-      link: "https://www.mysql.com/",
+      link: "https://www.microsoft.com/en-us/microsoft-365/word",
     },
     {
       name: "Microsoft Excel",
       icon: <PiMicrosoftExcelLogoFill />,
       description:
         "Microsoft Excel is used to creating, managing, and analyzing data in tables or charts",
-      link: "https://www.mysql.com/",
+      link: "https://www.microsoft.com/en-us/microsoft-365/excel",
     },
     {
       name: "Microsoft Power Point",
       icon: <PiMicrosoftPowerpointLogoFill />,
       description:
         "Microsoft Power Point is used to creating slide presentations with text, images, charts, and animation.",
-      link: "https://www.mysql.com/",
+      link: "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
     },
   ];
 
@@ -84,7 +84,7 @@ export default function Skill() {
 
       <p>These are things I learned</p>
 
-      <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
+      <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col items-center m-8 gap-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillItems.map((skillItems, index) => (
             <a
@@ -103,6 +103,11 @@ export default function Skill() {
               <p className="text-center">{skillItems.description}</p>
             </a>
           ))}
+        </div>
+        <div className="items-center text-center flex p-2">
+          <li className="text-base font-semibold text-[#00aa00]">
+            press to see the official website page
+          </li>
         </div>
       </div>
     </div>
