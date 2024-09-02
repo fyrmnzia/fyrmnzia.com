@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   const contactItems = [
@@ -12,6 +12,11 @@ export default function Contact() {
       name: "LinkedIn",
       icon: <FaLinkedin />,
       link: "https://www.linkedin.com/in/rifqi-firmansyah-1686b3292",
+    },
+    {
+      name: "Instagram",
+      icon: <FaInstagram />,
+      link: "https://instagram.com/rifqii.f",
     },
   ];
 
@@ -27,7 +32,7 @@ export default function Contact() {
       </div>
       <p>Lets get connected on these platform!</p>
       <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
-        <div className="grid grid-cols-2 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-3 sm:grid-cols-3 gap-8">
           {contactItems.map((contactItems, index) => (
             <a
               href={contactItems.link}

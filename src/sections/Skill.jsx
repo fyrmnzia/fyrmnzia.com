@@ -1,12 +1,15 @@
 import React from "react";
-import { FaCss3, FaHtml5, FaJs, FaReact, FaTools } from "react-icons/fa";
 import {
-  PiMicrosoftExcelLogoFill,
-  PiMicrosoftPowerpointLogoFill,
-  PiMicrosoftWordLogoFill,
-} from "react-icons/pi";
+  FaCss3,
+  FaHtml5,
+  FaJs,
+  FaNode,
+  FaReact,
+  FaTools,
+} from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { TbBrandMysql } from "react-icons/tb";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 export default function Skill() {
   const skillItems = [
@@ -30,10 +33,31 @@ export default function Skill() {
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
+      name: "MongoDB",
+      icon: <SiMongodb />,
+      description:
+        "MongoDB is used to storing data in a flexible, JSON-like format",
+      link: "https://www.mongodb.com",
+    },
+    {
+      name: "ExpressJS",
+      icon: <SiExpress />,
+      description:
+        "ExpressJS is used to build web application, create APIs, manage routes, use middleware, server static files, integrate with database",
+      link: "https://expressjs.com",
+    },
+    {
       name: "React",
       icon: <FaReact />,
       description: "React is a library for bulding user interfaces",
       link: "https://react.dev/",
+    },
+    {
+      name: "NodeJS",
+      icon: <FaNode />,
+      description:
+        "NodeJS is runtime enviroment that allows you to run JavaScript on the server side",
+      link: "https://nodejs.org",
     },
     {
       name: "Tailwindcss",
@@ -43,31 +67,11 @@ export default function Skill() {
       link: "https://tailwindcss.com/",
     },
     {
-      name: "MySQL",
-      icon: <TbBrandMysql />,
-      description: "MySQL is used to store, process, and manage data web pages",
-      link: "https://www.mysql.com/",
-    },
-    {
-      name: "Microsoft Word",
-      icon: <PiMicrosoftWordLogoFill />,
+      name: "Responsive Design",
+      icon: <MdDevices />,
       description:
-        "Microsoft Word is used to creating, editing, and formating text document",
-      link: "https://www.microsoft.com/en-us/microsoft-365/word",
-    },
-    {
-      name: "Microsoft Excel",
-      icon: <PiMicrosoftExcelLogoFill />,
-      description:
-        "Microsoft Excel is used to creating, managing, and analyzing data in tables or charts",
-      link: "https://www.microsoft.com/en-us/microsoft-365/excel",
-    },
-    {
-      name: "Microsoft Power Point",
-      icon: <PiMicrosoftPowerpointLogoFill />,
-      description:
-        "Microsoft Power Point is used to creating slide presentations with text, images, charts, and animation.",
-      link: "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
+        "Responsive design is a web design approach that ensures a website's layout, images, and other elements automatically adjust to look good on various devices",
+      link: "https://id.wikipedia.org/wiki/Desain_web_responsif ",
     },
   ];
 
