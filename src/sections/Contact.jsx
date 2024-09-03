@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 export default function Contact() {
   const contactItems = [
@@ -18,6 +19,11 @@ export default function Contact() {
       icon: <FaInstagram />,
       link: "https://instagram.com/rifqii.f",
     },
+    {
+      name: "Email",
+      icon: <MdOutlineMail />,
+      link: "https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=1rifqi.firmansyah@gmail.com",
+    },
   ];
 
   return (
@@ -32,7 +38,7 @@ export default function Contact() {
       </div>
       <p>Lets get connected on these platform!</p>
       <div className="bg-[#202020] border-2 border-[#222222] p-8 md:p-12 lg:p-16 rounded-lg shadow-lg text-center max-w-4xl flex flex-col md:flex-row items-center m-8 gap-8">
-        <div className="grid grid-cols-3 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {contactItems.map((contactItems, index) => (
             <a
               href={contactItems.link}
