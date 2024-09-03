@@ -50,7 +50,7 @@ export default function Contact() {
               >
                 {contactItems.icon}
               </div>
-              <h3 className="text-base md:text-lg lg:text-xl font-medium hover:font-semibold transition-all duration-150 mb-2 text-white">
+              <h3 className="text-base md:text-lg lg:text-xl font-normal hover:font-semibold mb-2 text-white">
                 {contactItems.name}
               </h3>
             </a>
