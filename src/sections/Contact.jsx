@@ -43,7 +43,7 @@ export default function Contact() {
             <a
               href={contactItems.link}
               key={index}
-              className="bg-[#222222] border-2 border-[#242424] p-2 md:p-6 lg:p-10 rounded-lg shadow-lg flex flex-col items-center transition-transform transform hover:scale-105 hover:bg-[#242424]"
+              className="bg-[#222222] border-2 border-[#242424] px-4 p-2 md:p-6 lg:p-10 rounded-lg shadow-lg flex flex-col items-center transition-transform transform hover:scale-105 hover:bg-[#242424]"
             >
               <div
                 className={`h-16 w-16 text-6xl mb-4 flex items-center justify-center text-white`}
